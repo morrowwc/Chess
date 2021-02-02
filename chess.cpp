@@ -4,8 +4,9 @@
 int main(){
     Chess game; 
     game.start();
-    while(!game.isOver()){
+    game.printBoard();
+    /*while(!game.isOver()){
         
     }
-
+    */
 }
